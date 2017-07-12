@@ -1,0 +1,95 @@
+
+body {
+    word-wrap: break-word;
+
+  background-color: black;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.header{
+  text-align: center;
+  background-color: aquamarine;
+  font-size: 150%;
+  padding: 10px;
+  font-weight: bold;
+  
+}
+
+.intro {
+  color:white;
+  padding: 10px;
+  max-width: 70%;
+  margin: 0 auto;
+  text-align:left;
+  font-size: 90%;
+}
+#getnews {
+  margin: 20px auto;
+  display:block;
+  background-color: lightgreen;
+  font-weight: bold;
+  border: 2px solid lightgreen;
+  font-size: 100%;
+  
+}
+
+#getnews:hover {
+  border: 2px solid black;
+}
+
+#getnews:focus {
+  border: 2px solid lightgreen;
+  outline:none;
+}
+
+.link {
+  text-align: right;
+}
+
+.feed {
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  max-width: 300px;
+  vertical-align: top;
+  horizontal-align: left;
+  
+  
+}
+
+.feedimg {
+  max-width: 80%;
+  padding: 10px;
+  display: inline-block;
+}
+
+.feedheadline {
+  font-size: 150%;
+}
+
+.feedbody, .feedheadline {
+  text-align: left;
+  display: inline-block;
+  margin: 10px;
+  max-width: 80%;
+}
+
+a {
+  color: black;
+  text-decoration:none;
+  
+}
+
+.footer {
+  margin:20px 0px 0px 0px;
+  color: white;
+  padding: 10px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
